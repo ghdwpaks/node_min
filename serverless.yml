@@ -13,3 +13,15 @@ functions:
       - http:
           path: hello
           method: get
+  hell:
+    handler: handler.hell
+    events:
+      - http:
+          path: hell
+          method: get
+  home:
+    handler: handler.home
+    events:
+      - http:
+          path: home
+          method: get
